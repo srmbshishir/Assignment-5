@@ -1,0 +1,22 @@
+#meals{
+    background-color: goldenrod;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 25px;
+    padding-top: 50px;
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-bottom: 50px;
+
+ 
+
+}
+.meal{
+    /* border: 1px solid blue;
+    border-radius: 5px; */
+    /* background-image: linear-gradient(rgb(194, 161, 13),black); */
+}
+.meal:hover{
+    transform: scale(1.05);
+    overflow: hidden;
+}
